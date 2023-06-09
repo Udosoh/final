@@ -16,7 +16,8 @@ video{
   align-items: center;
   justify-content: center;
   background-image: url(../assets/images/heroimage.jpg);
- 
+  background-size: cover;
+ background-position: center;
   
 }
 
