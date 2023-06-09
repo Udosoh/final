@@ -99,7 +99,7 @@ const Footer = () => {
             <h5 className="footer__link-title">Contact</h5>
 
             <ListGroup className="footer__quick-links">
-              <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
+              <ListGroupItem className="ps-0  resp border-0 d-flex align-items-center gap-3">
                 <h6 className="mb-0 d-flex align-items-center gap-2">
                   <span>
                     <i class="ri-map-pin-line"></i>
@@ -109,7 +109,7 @@ const Footer = () => {
 
                 <p className="mb-0 footerp ">Block 62, Flat 7 pw Kubwa, Abuja, FCT</p>
               </ListGroupItem>
-              <ListGroupItem className="ps-0 border-0 email d-flex align-items-center gap-3">
+              <ListGroupItem className="ps-0 resp border-0 email d-flex align-items-center gap-3">
                 <h6 className="mb-0 d-flex align-items-center gap-2">
                   <span>
                     <i class="ri-mail-line"></i>
@@ -119,7 +119,7 @@ const Footer = () => {
 
                 <a  href="mailto:legacyagency094@gmail.com "className="mb-0 email ">legacyagency094@gmail.com</a>
               </ListGroupItem>
-              <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-3">
+              <ListGroupItem className="ps-0  resp border-0 d-flex align-items-center gap-3">
                 <h6 className="mb-0 d-flex align-items-center gap-2">
                   <span>
                     <i class="ri-phone-fill"></i>

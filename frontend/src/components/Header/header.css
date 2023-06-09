@@ -1,5 +1,5 @@
 .header {
-  width: 100%;
+  width: 100% !important;
   height: 80px;
   display: flex;
 
@@ -105,7 +105,7 @@
 
 @media only screen and (max-width: 768px) {
   .logo img {
-    width: 45%;
+    width: 100%;
   }
 
   .menu {

@@ -5,18 +5,10 @@
   overflow: hidden;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(../assets/images/heroimage.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(../assets/images/heroimage.jpg);
   background-size: cover;
 }
 
-
-
-.wraping{
-
-  display: flex;
-  border: #ee6e6e solid 1px;
-
-} 
 
 
 
@@ -104,6 +96,12 @@
   display: flex;
   align-items: center;
  
+}
+
+.counter__box{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
 
 
