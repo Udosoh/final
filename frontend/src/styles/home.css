@@ -1,25 +1,24 @@
-video{
-  position: absolute !important;
-  top: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
-  object-fit : cover !important;
-  height: 95vh !important;
-  width: 100% !important;
-  filter: brightness(40%) !important;
-  z-index: -111 !important;
-}
-.section{
+
+.section {
   position: relative;
   padding-top: 0;
   overflow: hidden;
   align-items: center;
   justify-content: center;
-  background-image: url(../assets/images/heroimage.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(../assets/images/heroimage.jpg);
   background-size: cover;
- background-position: center;
-  
 }
+
+
+
+.wraping{
+
+  display: flex;
+  border: #ee6e6e solid 1px;
+
+} 
+
+
 
 .highlight__home{
   color: var(--secondary-color) !important;
@@ -102,7 +101,9 @@ video{
 .counter__wrapper {
   margin-top: 2.5rem;
   width: 80%;
-  background-color: #ee6e6e;
+  display: flex;
+  align-items: center;
+ 
 }
 
 
